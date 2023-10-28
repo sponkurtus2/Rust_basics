@@ -1,0 +1,12 @@
+[package]
+name = "RustBasics"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# In order to use additional packages (Like pip in python), we have to add them to our cargo dependencies
+# In this example we are using rand, which is a random number generator
+[dependencies]
+rand = { version = "0.8", features = [] }
+
