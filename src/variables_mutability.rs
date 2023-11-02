@@ -12,5 +12,5 @@ pub fn variables_and_mutability() {
     // CONSTANTS
     const PI: f32 = 3.1316;
     println!("PI equals: {}", PI);
-
 }
+
