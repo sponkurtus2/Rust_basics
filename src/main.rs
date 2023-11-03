@@ -8,6 +8,8 @@ mod fizz_buzz_functions;
 mod functions_methods;
 mod Loops;
 mod Ownership;
+mod generic_type;
+mod generic_types_excercices;
 fn main() {
     // variables_mutability::variables_and_mutability();
     // data_types::data_types();
@@ -18,5 +20,7 @@ fn main() {
     // fizz_buzz_functions::fizz_main();
     //  functions_methods::func_methods();
     // Loops::loops();
-    Ownership::ownesrhip();
+    // Ownership::ownesrhip();
+    // generic_type::generic_types();
+    generic_types_excercices::generic_types_excercices();
 }
